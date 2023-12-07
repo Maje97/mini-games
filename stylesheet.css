@@ -1,8 +1,16 @@
 body {
     background-color: lavenderblush;
+}
+
+header {
+    background-color: violet;
     border-style: solid;
     border-width: 10px;
-    border-color: violet;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
 }
 
 h1 {
