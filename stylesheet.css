@@ -7,6 +7,10 @@ body {
     background-color: lavenderblush;
 }
 
+h1, h2, h3, h4, p {
+    text-align: center;
+}
+
 header {
     background-color: violet;
     border-style: solid;
@@ -28,15 +32,33 @@ li {
     display: inline;
 }
 
-footer {
-    background-color: violet;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+article {
+    max-width: 50%;
+    margin: auto;
 }
 
-h1, h2, h3, h4 {
-    text-align: center;
+article p {
+    text-align: left;
+}
+
+aside {
+    position: absolute;
+    top: inherit;
+    right: 0;
+    width: 200px;
+    border: 3px solid violet;
+    z-index: -1;
+}
+
+aside img {
+    width: 180px;
+    padding: 10px;
+}
+
+footer {
+    background-color: violet;
+    padding: 10px;
+    width: 100%;
 }
 
 /*Klasser*/
