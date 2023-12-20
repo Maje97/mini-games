@@ -4,17 +4,25 @@
 
 /*Element*/
 body {
-    background-color: lavenderblush;
+    background-color: white;
 }
 
 h1, h2, h3, h4, p {
     text-align: center;
 }
 
+a {
+    color: #FEE440;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
 header {
-    background-color: violet;
+    background-color: #9B5DE5;
     border-style: solid;
-    border-color: blueviolet;
+    border-color: black;
     border-width: 10px;
     position: fixed;
     top: 0;
@@ -44,11 +52,12 @@ article p {
 }
 
 aside {
+    background-color: #F15BB5;
     position: absolute;
     top: inherit;
     right: 0;
     width: 200px;
-    border: 3px solid violet;
+    border: 3px solid black;
     z-index: -1;
 }
 
@@ -58,7 +67,8 @@ aside img {
 }
 
 footer {
-    background-color: violet;
+    background-color: #9B5DE5;
+    color: black;
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -80,11 +90,11 @@ footer {
     text-align: center;
     text-decoration: none;
     float: right;
-    border-left: 1px solid blueviolet;
+    border-left: 1px solid black;
 }
 
 .nav:hover {
-    background-color: blueviolet;
+    text-decoration: underline;
 }
 
 .bredbild {
