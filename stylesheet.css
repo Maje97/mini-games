@@ -4,7 +4,7 @@
 
 /*Element*/
 body {
-    background-color: white;
+    background-color: #ffe9f3;
 }
 
 h1, h2, h3, h4, p {
@@ -12,23 +12,39 @@ h1, h2, h3, h4, p {
 }
 
 a {
-    color: #FEE440;
+    color: #512d38;
 }
 
 a:hover {
+    color: #87baab;
     cursor: pointer;
 }
 
 header {
-    background-color: #9B5DE5;
+    background-color: #b27092;
     border-style: solid;
     border-color: black;
-    border-width: 10px;
+    border-width: 5px;
     position: fixed;
     top: 0;
     left: 0px;
     right: 0px;
     border-width: 100%;
+}
+
+header a {
+    color: black;
+    font-size: 20px;
+    padding: 22px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    border-left: 1px solid black;
+}
+
+header a:hover {
+    background-color: #512d38;
+    color: black;
 }
 
 ul {
@@ -42,6 +58,10 @@ li {
     display: inline;
 }
 
+main {
+    margin-top: 100px;
+}
+
 article {
     max-width: 50%;
     margin: auto;
@@ -52,7 +72,7 @@ article p {
 }
 
 aside {
-    background-color: #F15BB5;
+    background-color: #f4bfdb;
     position: absolute;
     top: inherit;
     right: 0;
@@ -67,7 +87,7 @@ aside img {
 }
 
 footer {
-    background-color: #9B5DE5;
+    background-color: #b27092;
     color: black;
     position: fixed;
     bottom: 0px;
@@ -81,20 +101,6 @@ footer {
     height: 50px; 
     padding: 5px 5px;
     display: inline-block;
-}
-
-.nav {
-    color: black;
-    font-size: 20px;
-    padding: 22px;
-    text-align: center;
-    text-decoration: none;
-    float: right;
-    border-left: 1px solid black;
-}
-
-.nav:hover {
-    text-decoration: underline;
 }
 
 .bredbild {
