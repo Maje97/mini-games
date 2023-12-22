@@ -25,14 +25,15 @@
         <p>Helt vanliga sten, sax, påse. Sten vinner över sax, sax vinner över påse och påse vinner över sten.</p>
     </main>
 
-    <button onclick="startSpel()">Sten</button>
-    <button onclick="">Sax</button>
-    <button onclick="">Påse</button>
+    <button onclick="startaSpel('sten')">Sten</button>
+    <button onclick="startaSpel('sax')">Sax</button>
+    <button onclick="startaSpel('påse')">Påse</button>
 
-    <div class="js-score"></div>
+    <p class="js-resultat">Resultat</p>
+    <p class="js-score">Vinster: Förluster: Oavgjort:</p>
 
-    <button>Återställ</button>
+    <button onclick="aterstall()">Återställ</button>
 
-    <link rel="JavaScript för Sten Sax Påse" href="stensaxpase.js">
+    <script src="stensaxpase.js"></script>
 </body>
 </html>
