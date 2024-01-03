@@ -48,7 +48,10 @@ function startaSpel(val) {
         break;
     }
     console.log(score);
-    alert(`Du valde ${val}, spelet valde ${speletsval}. ${resultat}`);
+
+    document.querySelector('.js-resultat').innerHTML = resultat;
+    document.querySelector('.js-moves').innerHTML = `Du valde ${val}, spelet valde ${speletsval}.`;
+    document.querySelector('.js-score').innerHTML = `Vinster: ${score.vinster}  Förluster: ${score.forluster}  Oavgjort: ${score.oavgjort}`;
 }
 
 function aterstall() {
@@ -57,4 +60,6 @@ function aterstall() {
         forluster: 0,
         oavgjort: 0,
     }
+    document.querySelector('.js-score')
+        .innerHTML = `Vinster: ${score.vinster}  Förluster: ${score.forluster}  Oavgjort: ${score.oavgjort}`;
 }

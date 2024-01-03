@@ -106,3 +106,14 @@ footer {
 .bredbild {
     width: 100%;
 }
+
+/*Sten Sax Påse*/
+.moves {
+    position: relative;
+    left: 40%;
+}
+
+.återställ {
+    position: relative;
+    left: 47%;
+}
