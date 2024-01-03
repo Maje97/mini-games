@@ -22,21 +22,35 @@
 
     <main>
         <h1>Sten Sax Påse</h1>
+        <img src="bilder/rock-paper-scissors.png" alt="rock paper scissors" class="game-logo">
         <p>Helt vanliga sten, sax, påse. Sten vinner över sax, sax vinner över påse och påse vinner över sten.</p>
     </main>
 
     <div class="moves">
-        <button onclick="startaSpel('sten')">Sten</button>
-        <button onclick="startaSpel('sax')">Sax</button>
-        <button onclick="startaSpel('påse')">Påse</button>
+        <button class="move-button" onclick="startaSpel('sten')"><img class="img-move" alt="rock" src="bilder/270A-1F3FB_color.png"></button>
+        <button class="move-button" onclick="startaSpel('sax')"><img class="img-move" alt="scissor" src="bilder/270C-1F3FD_color.png"></button>
+        <button class="move-button" onclick="startaSpel('påse')"><img class="img-move" alt="paper" src="bilder/270B-1F3FF_color.png"></button>
     </div>
 
-    <p class="js-resultat">Resultat</p>
-    <p class="js-moves">Du valde ..., spelet valde...</p>
-    <p class="js-score">Vinster: 0 Förluster: 0 Oavgjort: 0</p>
+    <p class="js-resultat css-resultat">Resultat</p>
+    <p class="js-moves css-moves">Du valde ..., spelet valde...</p>
+    <p class="js-score css-score">Vinster: 0 Förluster: 0 Oavgjort: 0</p>
 
     <button class="återställ" onclick="aterstall()">Återställ</button>
 
     <script src="stensaxpase.js"></script>
+
+    <footer>
+        <a href="https://www.flaticon.com/free-icons/joystick" title="joystick icons">Joystick icons created by Good Ware - Flaticon</a>
+        <br>
+        <a href="https://www.flaticon.com/free-icons/rock-paper-scissors" title="rock paper scissors icons">Rock paper scissors icons created by Freepik - Flaticon</a>
+        <br>
+        <div class="attribution"><a href="https://openmoji.org/library/emoji-270A/#variant=270A-1F3FB" title="rock">"raised fist"</a>, 
+            <a href="https://openmoji.org/library/emoji-270C/#variant=270C-1F3FD" title="scissor">"victory hand"</a> and
+            <a href="https://openmoji.org/library/emoji-270B/#variant=270B-1F3FF" title="paper">"raised hand"</a> 
+            by 	Julian Grüneberg, used under 
+            <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="CC BY-SA 4.0 DEED">CC BY-SA 4.0</a>
+        </div>
+    </footer>
 </body>
 </html>

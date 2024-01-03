@@ -49,9 +49,14 @@ function startaSpel(val) {
     }
     console.log(score);
 
-    document.querySelector('.js-resultat').innerHTML = resultat;
-    document.querySelector('.js-moves').innerHTML = `Du valde ${val}, spelet valde ${speletsval}.`;
-    document.querySelector('.js-score').innerHTML = `Vinster: ${score.vinster}  Förluster: ${score.forluster}  Oavgjort: ${score.oavgjort}`;
+    document.querySelector('.js-resultat')
+        .innerHTML = resultat;
+    
+    document.querySelector('.js-moves')
+        .innerHTML = `Du valde ${val}, spelet valde ${speletsval}.`;
+    
+    document.querySelector('.js-score')
+        .innerHTML = `Vinster: ${score.vinster}  Förluster: ${score.forluster}  Oavgjort: ${score.oavgjort}`;
 }
 
 function aterstall() {
