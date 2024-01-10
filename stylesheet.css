@@ -25,11 +25,8 @@ header {
     border-style: solid;
     border-color: black;
     border-width: 5px;
-    position: fixed;
-    top: 0;
-    left: 0px;
-    right: 0px;
-    border-width: 100%;
+    position: sticky;
+    width: 100%;
 }
 
 header a {
@@ -78,7 +75,6 @@ aside {
     right: 0;
     width: 200px;
     border: 3px solid black;
-    z-index: -1;
 }
 
 aside img {
@@ -92,6 +88,8 @@ footer {
     padding: 10px;
     width: 100%;
     margin-top: 30px;
+    position: fixed;
+    bottom: 0;
 }
 
 /*Klasser*/
@@ -149,7 +147,11 @@ footer {
 .gamecontainer {
     position: relative;
     text-align: center;
-    color: white;
+    height: 70vh;
+    background-image: url("visualnovel-assets/UI/Window01.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
 .startbutton {
@@ -161,21 +163,24 @@ footer {
     font-size: 25px;
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .startbutton1 {
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .vn-background {
-width: 100%;
-z-index: -1;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 33vh;
 }
 
 .vn-charleft {
