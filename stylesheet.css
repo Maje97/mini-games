@@ -213,7 +213,7 @@ footer {
 .charright {
     position: absolute;
     top: 20%;
-    right: 15%;
+    right: 17%;
     height: 25vh;
     width: 20vh;
     z-index: -2;
@@ -246,6 +246,10 @@ footer {
     z-index: 1;
 }
 
+.vnp {
+    text-align: left;
+}
+
 .buttonbox {
     position: absolute;
     height: 10vh;
@@ -254,6 +258,15 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+}
+
+.nextbutton {
+    position: absolute;
+    height: 7vh;
+    width: 7vh;
+    top: 47%;
+    left: 92%;
+    transform: translate(-50%, -50%);
 }
 
 /*Virtuellt husdjur*/
