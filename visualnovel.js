@@ -13,11 +13,13 @@ function startGame() {
     charleft.innerHTML = `<img class="vn-char" src="visualnovel-assets/characters/GRC2018005_001.png">`;
     charmiddle.innerHTML = `<img class="vn-char" src="visualnovel-assets/characters/GRC2018005_001.png">`;
     charright.innerHTML = `<img class="vn-char" src="visualnovel-assets/characters/GRC2018005_001.png">`;
-    narrator.innerHTML = `<h1>Hej</h1>`;
+    narrator.innerHTML = `<h2>Hej</h2>`;
     textbox.innerHTML = `<p class="vnp">hej</p>`;
     buttonbox.innerHTML = `<button class="nextbutton" onclick="nextSlide()">Next</button>`;
+    
 }
 
 function nextSlide() {
     slide++;
+    console.log(slide);
 }

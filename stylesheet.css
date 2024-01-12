@@ -5,6 +5,7 @@
 /*Element*/
 body {
     background-color: #ffe9f3;
+    margin: 0;
 }
 
 h1, h2, h3, h4, p {
@@ -56,7 +57,7 @@ li {
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 article {
@@ -170,14 +171,17 @@ footer {
 
 .startbutton {
     color: white;
-    background-color: transparent;
+    background-image: url("visualnovel-assets/UI/Btn_V03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     border-style: none;
-    width: 360px;
-    height: 65px;
+    border-radius: 15px;
+    width: 25vh;
+    height: 4.6vh;
     font-size: 25px;
     cursor: pointer;
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -230,7 +234,7 @@ footer {
     position: absolute;
     height: 10vh;
     width: 60vh;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -278,4 +282,72 @@ footer {
     transform: translate(-50%, -50%);
     width: 300px;
     height: 300px;
+}
+
+@media (max-width: 600px) {
+    /*Visual novel*/
+    .gamecontainer {
+        height: 50vw;
+        width: 70vw;
+      }
+    
+    .ui {
+        height: 10vw;
+        width: 70vw;
+    }
+    
+    .startbutton {
+        width: 38vw;
+        height: 7.1vw;
+        font-size: 20px;
+    }
+    
+    .vn-background {
+        height: 40vw;
+        width: 70vw;
+    }
+    
+    .charleft {
+        height: 25vw;
+        width: 20vw;
+    }
+    
+    .charmiddle {
+        height: 25vw;
+        width: 20vw;
+    }
+    
+    .charright {
+        height: 25vw;
+        width: 20vw;
+    }
+    
+    .vn-char {
+        width: 35vw;
+    }
+    
+    .narrator {
+        height: 10vw;
+        width: 60vw;
+    }
+    
+    .textbox {
+        height: 7vw;
+        width: 59vw;
+    }
+    
+    .vnp {
+        font-size: small;
+    }
+    
+    .buttonbox {
+        height: 10vw;
+        width: 70vw;
+    }
+    
+    .nextbutton {
+        font-size: 10px;
+        height: 7vw;
+        width: 7vw;
+    }
 }
