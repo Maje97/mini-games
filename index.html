@@ -9,45 +9,54 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="navlaptop">
             <img src="bilder/console.png" alt="console" class="logo">
-            <ul>
-                <li><a href="kontakt.html" target="_self">Kontakt</a></li>
-                <li><a href="virtuellthusdjur.html" target="_self">Virtuellt husdjur</a></li>
-                <li><a href="visualnovel.html" target="_self">Visual novel</a></li>
-                <li><a href="stensaxpase.html" target="_self">Sten Sax Påse</a></li>
-                <li><a href="/" target="_self">Hem</a></li>
-            </ul>
+            <a href="/" target="_self">Hem</a>
+            <a href="stensaxpase.html" target="_self">Sten Sax Påse</a>
+            <a href="visualnovel.html" target="_self">Visual novel</a>
+            <a href="virtuellthusdjur.html" target="_self">Virtuellt husdjur</a>
+            <a href="kontakt.html" target="_self">Kontakt</a>
+        </nav>
+
+        <nav id="navmobile">
+            <button onmouseenter="mobileMenu()" onclick="mobileMenu()" class="dropbtn">Meny</button>
+            <div onmouseleave="eraseMenu()" class="droplinks"></div>
         </nav>
     </header>
 
-    <aside>
-        <h3>Om mig</h3>
-        <img src="bilder/20230829_184059.jpg" alt="jag">
-    </aside>
+    <div class="flexcontainer">
+        <aside class="ad"></aside>
 
-    <main>
-        <h1>Välkommen!</h1>
-        <p>Här är några simpla spel som gjorts av en nybörjare</p>
-    </main>
+        <main id="indexmain">
+            <h1>Välkommen!</h1>
+            <p>Här är några simpla spel som gjorts av en nybörjare</p>
 
-    <article>
-        <h2>Sten Sax Påse</h2>
-        <p>Jag började med att..</p>
-    </article>
+            <article>
+                <h2>Sten Sax Påse</h2>
+                <p>Jag började med att..</p>
+            </article>
+        
+            <article>
+                <h2>Visual novel</h2>
+                <p>Jag</p>
+            </article>
+        
+            <article>
+                <h2>Virtuellt husdjur</h2>
+                <p>Jag</p>
+            </article>
+        </main>
 
-    <article>
-        <h2>Visual novel</h2>
-        <p>Jag</p>
-    </article>
-
-    <article>
-        <h2>Virtuellt husdjur</h2>
-        <p>Jag</p>
-    </article>
+        <aside>
+            <h3>Om mig</h3>
+            <img src="bilder/20230829_184059.jpg" alt="jag">
+        </aside>
+    </div>
 
     <footer>
         <a href="https://www.flaticon.com/free-icons/joystick" title="joystick icons">Joystick icons created by Good Ware - Flaticon</a>
     </footer>
+
+    <script src="interactive.js"></script>
 </body>
 </html>

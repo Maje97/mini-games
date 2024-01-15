@@ -30,34 +30,54 @@ header {
     width: 100%;
 }
 
-header a {
+#navlaptop {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navlaptop a {
     color: black;
     font-size: 20px;
     padding: 22px;
-    text-align: center;
     text-decoration: none;
-    float: right;
     border-left: 1px solid black;
 }
 
-header a:hover {
+#navlaptop a:hover {
     background-color: #512d38;
     color: black;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-  }
+#navmobile .dropbtn {
+    height: 50px;
+    width: 50px;
+    background-color: #f4bfdb;
+}
 
-li {
-    display: inline;
+#navmobile .droplinks {
+    position: absolute;
+}
+
+#navmobile .droplinks a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color: #b27092;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 main {
     margin-top: 10px;
+    min-width: 600px;
 }
 
 article {
@@ -71,10 +91,6 @@ article p {
 
 aside {
     background-color: #f4bfdb;
-    position: absolute;
-    top: inherit;
-    right: 0;
-    width: 200px;
     border: 3px solid black;
 }
 
@@ -96,7 +112,6 @@ footer {
 .logo {
     height: 50px; 
     padding: 5px 5px;
-    display: inline-block;
 }
 
 .bredbild {
@@ -284,7 +299,36 @@ footer {
     height: 300px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 801px) {
+    #navmobile {
+        display: none;
+    }
+
+    .ad {
+        width: 160px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    #navlaptop {
+        display: none;
+    }
+
+    .flexcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ad {
+        width: 320px;
+        height: 50px;
+    }
+
+    #indexmain {
+        width: 100vw;
+    }
+    
     /*Visual novel*/
     .gamecontainer {
         height: 50vw;
