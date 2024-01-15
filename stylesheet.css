@@ -73,11 +73,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-main {
-    margin-top: 10px;
-    min-width: 600px;
+    width: 100%;
 }
 
 article {
@@ -121,8 +117,7 @@ footer {
 /*Sten Sax Påse*/
 .game-logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 200px;
 }
 
@@ -299,7 +294,7 @@ footer {
     height: 300px;
 }
 
-@media (min-width: 801px) {
+@media (min-width: 769px) {
     #navmobile {
         display: none;
     }
@@ -308,9 +303,24 @@ footer {
         width: 160px;
         height: 600px;
     }
+
+    #indexmain {
+        min-width: 500px;
+    }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
+    #indexmain {
+        width: 300px;
+    }
+
+    .ad {
+        width: 160px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 600px) {
     #navlaptop {
         display: none;
     }
