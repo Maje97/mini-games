@@ -276,6 +276,11 @@ footer {
 
 .nextbutton {
     position: absolute;
+    background-color: transparent;
+    background-image: url(visualnovel-assets/play-button.256x256.png);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
     height: 7vh;
     width: 7vh;
     top: 47%;
@@ -384,9 +389,13 @@ footer {
         height: 10vw;
         width: 60vw;
     }
+
+    .narrator h2 {
+        font-size: 15px;
+    }
     
     .textbox {
-        height: 7vw;
+        height: 18vw;
         width: 59vw;
     }
     
