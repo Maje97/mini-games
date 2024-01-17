@@ -6,6 +6,8 @@
 body {
     background-color: #ffe9f3;
     margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 h1, h2, h3, h4, p {
@@ -32,7 +34,13 @@ header {
 
 #navlaptop {
     display: flex;
+    width: 100%;
     justify-content: flex-end;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
 }
 
 #navlaptop a {
@@ -76,6 +84,10 @@ header {
     width: 100%;
 }
 
+#layoutbody {
+    padding-bottom: 70px;
+}
+
 article {
     max-width: 50%;
     margin: auto;
@@ -100,8 +112,7 @@ footer {
     color: black;
     padding: 10px;
     width: 100%;
-    margin-top: 30px;
-    position: relative;
+    position: absolute;
     bottom: 0;
 }
 
@@ -240,6 +251,11 @@ footer {
     position: absolute;
 }
 
+.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .narrator {
     position: absolute;
     height: 10vh;
@@ -250,18 +266,25 @@ footer {
     z-index: 1;
 }
 
+.narrator h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
 .textbox {
     position: absolute;
     height: 7vh;
     width: 60vh;
     top: 90%;
-    left: 45%;
+    left: 43.5%;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
 
 .vnp {
     text-align: left;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .buttonbox {
@@ -315,17 +338,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    #indexmain {
-        width: 300px;
-    }
-
-    .ad {
-        width: 160px;
-        height: 600px;
-    }
-}
-
-@media (max-width: 600px) {
     #navlaptop {
         display: none;
     }

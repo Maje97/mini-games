@@ -24,25 +24,23 @@
         </nav>
     </header>
 
-    
-    <h1>Sten Sax Påse</h1>
-    <img src="bilder/rock-paper-scissors.png" alt="rock paper scissors" class="game-logo">
-    <p>Helt vanliga sten, sax, påse. Sten vinner över sax, sax vinner över påse och påse vinner över sten.</p>
+    <div id="layoutbody">
+        <h1>Sten Sax Påse</h1>
+        <img src="bilder/rock-paper-scissors.png" alt="rock paper scissors" class="game-logo">
+        <p>Helt vanliga sten, sax, påse. Sten vinner över sax, sax vinner över påse och påse vinner över sten.</p>
 
-    <div class="moves">
-        <button class="move-button" onclick="startaSpel('sten')"><img class="img-move" alt="rock" src="bilder/270A-1F3FB_color.png"></button>
-        <button class="move-button" onclick="startaSpel('sax')"><img class="img-move" alt="scissor" src="bilder/270C-1F3FD_color.png"></button>
-        <button class="move-button" onclick="startaSpel('påse')"><img class="img-move" alt="paper" src="bilder/270B-1F3FF_color.png"></button>
+        <div class="moves">
+            <button class="move-button" onclick="startaSpel('sten')"><img class="img-move" alt="rock" src="bilder/270A-1F3FB_color.png"></button>
+            <button class="move-button" onclick="startaSpel('sax')"><img class="img-move" alt="scissor" src="bilder/270C-1F3FD_color.png"></button>
+            <button class="move-button" onclick="startaSpel('påse')"><img class="img-move" alt="paper" src="bilder/270B-1F3FF_color.png"></button>
+        </div>
+
+        <p class="js-resultat css-resultat">Resultat</p>
+        <p class="js-moves css-moves">Du valde ..., spelet valde...</p>
+        <p class="js-score css-score">Vinster: 0 Förluster: 0 Oavgjort: 0</p>
+
+        <button class="återställ" onclick="aterstall()">Återställ</button>
     </div>
-
-    <p class="js-resultat css-resultat">Resultat</p>
-    <p class="js-moves css-moves">Du valde ..., spelet valde...</p>
-    <p class="js-score css-score">Vinster: 0 Förluster: 0 Oavgjort: 0</p>
-
-    <button class="återställ" onclick="aterstall()">Återställ</button>
-
-    <script src="interactive.js"></script>
-    <script src="stensaxpase.js"></script>
 
     <footer>
         <a href="https://www.flaticon.com/free-icons/joystick" title="joystick icons">Joystick icons created by Good Ware - Flaticon</a>
@@ -56,5 +54,8 @@
             <a href="https://creativecommons.org/licenses/by-sa/4.0/" title="CC BY-SA 4.0 DEED">CC BY-SA 4.0</a>
         </div>
     </footer>
+
+    <script src="interactive.js"></script>
+    <script src="stensaxpase.js"></script>
 </body>
 </html>
