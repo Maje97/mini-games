@@ -1,0 +1,100 @@
+[
+    {
+        "background": "visualnovel-assets/backgrounds/avatar.png",
+        "charleft": "visualnovel-assets/characters/bla09.png",
+        "charmiddle": "visualnovel-assets/characters/gran08.png",
+        "charright": "visualnovel-assets/characters/rosa05.png",
+        "narrator": "och det här är dina medarbetare.",
+        "textbox": "Ni arbetar med att utforska andra planeter. Lycka till."
+    },
+
+    {
+        "background": "visualnovel-assets/backgrounds/hovel_int.png",
+        "charleft": "",
+        "charmiddle": "",
+        "charright": "",
+        "narrator": "",
+        "textbox": ""
+    },
+
+    {
+        "background": "visualnovel-assets/backgrounds/hovel_int.png",
+        "charleft": "",
+        "charmiddle": "visualnovel-assets/characters/orange10.png",
+        "charright": "",
+        "narrator": "",
+        "textbox": "Y/N - Wow! Äntligen har jag fått mitt drömjobb! Nu ska det bli äventyr!"
+    },
+
+    {
+        "background": "visualnovel-assets/backgrounds/hovel_int.png",
+        "charleft": "",
+        "charmiddle": "",
+        "charright": "visualnovel-assets/characters/rosa03.png",
+        "narrator": "",
+        "textbox": ""
+    },
+
+    {
+        "background": "visualnovel-assets/backgrounds/hovel_int.png",
+        "charleft": "",
+        "charmiddle": "",
+        "charright": "",
+        "narrator": "",
+        "textbox": ""
+    },
+
+    {
+        "background": "visualnovel-assets/backgrounds/hovel_int.png",
+        "charleft": "",
+        "charmiddle": "",
+        "charright": "",
+        "narrator": "",
+        "textbox": ""
+    },
+
+    {
+        "background": "visualnovel-assets/backgrounds/hovel_int.png",
+        "charleft": "",
+        "charmiddle": "",
+        "charright": "",
+        "narrator": "",
+        "textbox": ""
+    },
+
+    {
+        "background": "visualnovel-assets/backgrounds/hovel_int.png",
+        "charleft": "",
+        "charmiddle": "",
+        "charright": "",
+        "narrator": "",
+        "textbox": ""
+    },
+
+    {
+        "background": "visualnovel-assets/backgrounds/hovel_int.png",
+        "charleft": "",
+        "charmiddle": "",
+        "charright": "",
+        "narrator": "",
+        "textbox": ""
+    },
+
+    {
+        "background": "visualnovel-assets/backgrounds/hovel_int.png",
+        "charleft": "",
+        "charmiddle": "",
+        "charright": "",
+        "narrator": "",
+        "textbox": ""
+    },
+
+    {
+        "background": "visualnovel-assets/backgrounds/hovel_int.png",
+        "charleft": "",
+        "charmiddle": "",
+        "charright": "",
+        "narrator": "",
+        "textbox": ""
+    }
+]

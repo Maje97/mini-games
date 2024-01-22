@@ -69,6 +69,16 @@ function nextSlide() {
         case 10:
             textbox.innerHTML = `<p class="vnp">Y/N - Tack!</p> <p class="vnp">Uvron - Jag gör bara mitt jobb. Gå och hjälp Zocon innan vi anländer.</p>`;
         break;
+        case 11:
+            background.innerHTML = `<img class="vn-background" src="visualnovel-assets/backgrounds/avatar.png">`;
+            charleft.innerHTML = ``;
+            charmiddle.innerHTML = `<img class="vn-char" src="visualnovel-assets/characters/gran05.png">`;
+            textbox.innerHTML = `<p class="vnp"></p>`;
+        break;
+        case 12:
+            charright.innerHTML = `<img class="vn-char" src="visualnovel-assets/characters/orange10.png">`;
+            textbox.innerHTML = `<p class="vnp">Y/N - Hej Zocon! Behöver du hjälp med något?</p>`;
+        break;
         default:
             background.innerHTML = ``;
             charleft.innerHTML = ``;
@@ -85,3 +95,12 @@ function nextSlide() {
 
     console.log(slide);
 }
+
+/*
+            background.innerHTML = ``;
+            charleft.innerHTML = ``;
+            charmiddle.innerHTML = ``;
+            charright.innerHTML = ``;
+            narrator.innerHTML = `<h2></h2>`;
+            textbox.innerHTML = `<p class="vnp"></p>`;
+*/
